@@ -11,4 +11,5 @@
     <string name="none_selected">Press the + button to add a stock</string>
     <string name="app_offline">No internet connection! Stocks may be out of date&#8230;</string>
     <string name="already_saved">This stock is already saved!</string>
+    <string name="cd_add">Add a Stock</string>
 </resources>
