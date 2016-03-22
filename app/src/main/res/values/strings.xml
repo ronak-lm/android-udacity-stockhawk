@@ -11,4 +11,6 @@
   <string name="input_prefill"></string>
   <string name="widget_title">Today\'s Market</string>
   <string name="network_toast">Uh-oh! This app requires an internet connection</string>
+  <string name="none_selected">Press the + button to add a stock</string>
+  <string name="app_offline">No internet connection! Stocks may be out of date&#8230;</string>
 </resources>
