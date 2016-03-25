@@ -2,6 +2,8 @@
 
 Udacity - Android Developer Nanodegree - Projects 3: Stock Hawk
 
+![screen](../master/art/screenshots.gif)
+
 
 ## Libraries
 
