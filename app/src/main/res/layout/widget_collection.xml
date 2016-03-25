@@ -4,6 +4,9 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:minWidth="@dimen/widget_default_width"
+    android:minHeight="@dimen/widget_default_height"
+    android:background="#a0000000"
     android:padding="@dimen/widget_margin">
 
     <FrameLayout
@@ -17,6 +20,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/widget_title"
+            android:textColor="@android:color/white"
             android:textSize="@dimen/md_title_textsize"
             android:layout_gravity="center"/>
     </FrameLayout>
@@ -30,7 +34,7 @@
             android:layout_height="match_parent"
             android:divider="@null"
             android:dividerHeight="0dp"
-            tools:listitem="@layout/widget_collection_item"/>
+            tools:listitem="@layout/list_item_quote"/>
     </FrameLayout>
 
 </LinearLayout>

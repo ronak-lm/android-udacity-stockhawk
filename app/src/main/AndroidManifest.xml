@@ -4,8 +4,8 @@
 
     <!-- App Permissions -->
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
     <uses-permission android:name="com.google.android.gcm.demo.permission.C2D_MESSAGE" />
     <permission android:name="com.google.android.gcm.demo.permission.C2D_MESSAGE"
         android:protectionLevel="signature" />
@@ -47,7 +47,7 @@
         <provider
             android:authorities="com.sam_chordas.android.stockhawk.data.QuoteProvider"
             android:name="com.sam_chordas.android.stockhawk.data.generated.QuoteProvider"
-            android:exported="false"/>
+            android:exported="true"/>
 
         <!-- Receiver -->
         <receiver
