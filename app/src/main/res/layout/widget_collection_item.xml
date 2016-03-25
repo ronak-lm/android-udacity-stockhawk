@@ -6,8 +6,10 @@
     android:layout_height="60dp"
     android:gravity="center_vertical"
     android:orientation="horizontal"
+    android:paddingStart="8dp"
     android:paddingLeft="8dp"
-    android:paddingRight="8dp">
+    android:paddingRight="8dp"
+    android:paddingEnd="8dp">
 
     <TextView android:id="@+id/stock_symbol"
         style="@style/StockSymbolTextStyle"
@@ -26,8 +28,10 @@
             style="@style/BidPriceTextStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:paddingStart="10sp"
             android:paddingLeft="10sp"
             android:paddingRight="10sp"
+            android:paddingEnd="10sp"
             tools:text="1000.00" />
 
         <TextView android:id="@+id/change"
@@ -35,8 +39,10 @@
             style="@style/PercentChangeTextStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:paddingStart="3dp"
             android:paddingLeft="3dp"
             android:paddingRight="3dp"
+            android:paddingEnd="3dp"
             tools:text="100%" />
 
     </LinearLayout>
