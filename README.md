@@ -1,8 +1,19 @@
-# StockHawk
-
+# Stock Hawk
 Udacity - Android Developer Nanodegree - Projects 3: Stock Hawk
 
+Stock Hawk project gives an opportunity to diagnose problems and practice improving apps. These skills are vital to building apps users will love. Diagnosing issues with existing apps is key to working on large apps or continuing projects in Android. Being aware of the common pitfalls in app design frees a developer to produce novel app experiences without making the same mistakes over and over.
+
 ![screen](../master/art/screenshots.gif)
+
+
+## Project Specification
+
+* Each stock quote on the main screen is clickable and leads to a new screen which graphs the stock's value over time.
+* Stock Hawk does not crash when a user searches for a non-existent stock.
+* Stock Hawk Stocks can be displayed in a collection widget.
+* Stock Hawk app has content descriptions for all buttons.
+* Stock Hawk app supports layout mirroring using both the RTL attribute and the start/end tags.
+* Strings are all included in the strings.xml file and untranslatable strings have a translatable tag marked to false.
 
 
 ## Libraries
@@ -18,19 +29,3 @@ Udacity - Android Developer Nanodegree - Projects 3: Stock Hawk
 
 [1]: ../master/art/nanodegree-logo.png
 [2]: https://www.udacity.com/course/android-developer-nanodegree--nd801
-
-## License
-
-    Copyright 2016 Ronak Manglani
-
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-
-        http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
